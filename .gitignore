@@ -1,0 +1,6 @@
+_build
+*.csv
+*.ods
+/lib
+/tmp
+*.log

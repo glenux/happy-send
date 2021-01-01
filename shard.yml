@@ -1,0 +1,25 @@
+name: happy-new-year-with-kdeconnect
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of happy-new-year-with-kdeconnect
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+dependencies:
+  clim:
+    github: at-grandpa/clim
+    version: 0.14.0
+  crustache:
+    github: MakeNowJust/crustache
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
