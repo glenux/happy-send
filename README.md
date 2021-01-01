@@ -1,5 +1,9 @@
 # HappySend
 
+![Build](https://github.com/glenux/happy-send/workflows/build/badge.svg?branch=master)
+[![GitHub license](https://img.shields.io/github/license/glenux/happy-send.svg)](https://github.com/glenux/happy-send/blob/master/LICENSE.txt)
+[![Donate on patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/glenux)
+
 HappySend is a tool that makes it easy to send wishes to lots of people through short text messages.
 
 It simply parses a CSV file and uses [KDE Connect](https://community.kde.org/KDEConnect) command line tool to control your smartphone.
