@@ -1,6 +1,6 @@
 # HappySend
 
-![Build](https://github.com/glenux/happy-send/workflows/build/badge.svg?branch=master)
+![Build](https://github.com/glenux/happy-send/workflows/crystal/badge.svg?branch=master)
 [![GitHub license](https://img.shields.io/github/license/glenux/happy-send.svg)](https://github.com/glenux/happy-send/blob/master/LICENSE.txt)
 [![Donate on patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/glenux)
 
