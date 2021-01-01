@@ -1,6 +1,6 @@
-# Happy Send
+# HappySend
 
-Happy-Send is a tool that makes it easy to send wishes to lots of people through short text messages.
+HappySend is a tool that makes it easy to send wishes to lots of people through short text messages.
 
 It simply parses a CSV file and uses [KDE Connect](https://community.kde.org/KDEConnect) command line tool to control your smartphone.
 
@@ -26,15 +26,16 @@ That should create the binary `_build/happy-send`
   
     Usage:
   
-      main_of_clim_library [options] [arguments]
+      happy-send [options] [arguments]
   
     Options:
   
-      -s, --send                       really send messages (dry-run by default) [type:Bool]
-      -w, --wait=SECONDS               wait SECONDS between each message (default: 5) [type:Int32] [default:5]
-      -v, --verbose                    enable debug messages [type:Bool]
-      -c FILE, --csv=FILE              CSV with firstname,lastname,number,message [type:String] [required]
+      -s, --send                       Send message for real (=not dry-run) [type:Bool] [default:false]
+      -w, --wait=SECONDS               Wait SECONDS between each message (default: 5) [type:Int32] [default:5]
+      -v, --verbose                    Enable debug messages [type:Bool] [default:false]
+      -c FILE, --csv=FILE              Use given CSV (mandatory fields: number,message) [type:String] [required]
       --help                           Show this help.
+
 
 
 ### Preparing your file
