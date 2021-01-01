@@ -1,10 +1,12 @@
 
 PROGNAME=happy-send
+BUILD_DIR=_build
 
 all: help
 
 build: # ## build binary
-	crystal build -o _build/$(PROGNAME) src/main.cr
+	mkdir -p $(BUILD_DIR)
+	crystal build -o $(BUILD_DIR)/$(PROGNAME) src/main.cr
 
 help: ## print this help
 	@echo "Usage: make <target>"
