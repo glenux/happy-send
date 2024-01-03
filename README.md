@@ -1,8 +1,13 @@
-# HappySend
-
 ![Build](https://github.com/glenux/happy-send/workflows/Build/badge.svg?branch=master)
 [![GitHub license](https://img.shields.io/github/license/glenux/happy-send.svg)](https://github.com/glenux/happy-send/blob/master/LICENSE.txt)
 [![Donate on patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/glenux)
+
+> :information_source: This project is available on our self-hosted server and
+> on CodeBerg and GitHub as mirrors. For the latest updates and comprehensive
+> version of our project, please visit our primary repository at:
+> <https://code.apps.glenux.net/glenux/happy-send>.
+
+# HappySend
 
 HappySend is a tool that makes it easy to send wishes to lots of people through short text messages.
 
